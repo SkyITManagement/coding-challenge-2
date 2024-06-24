@@ -21,8 +21,6 @@ import React, { useState, useEffect } from "react";
 
 const TodoList: React.FC = () => {
   // Create task list and manage state
-  const [tasks, setTasks] = useState<string[]>([]);
-  const [newTask, setNewTask] = useState("");
 
   // Log a message to the console each time the list of tasks changes
   useEffect(() => {}, []);
