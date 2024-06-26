@@ -1,58 +1,65 @@
-# GBCS Frontend Coding Challenge
-
-## Introduction
-
-Welcome to the coding challenge for new software engineer interns at GBCS Group! This challenge is designed to test your ability to work with React hooks within a Next.js application. You will be creating a to-do list component that demonstrates your understanding of state management and side effects in React.
+# GBCS Django-REST Coding Challenge
 
 ## Coding Challenge
 
 ### Objective
 
-Create a React component that functions as a to-do list using the `useState` and `useEffect` hooks in a Next.js application.
+Implement 2 views and serializers, and make successful POST and GET requests to each.
 
-### Requirements
+### Project Structure
 
-1. **Component:** The component should allow users to add and mark tasks as completed.
-2. **useState Hook:** Use the `useState` hook to manage the state of the to-do list and individual tasks.
-3. **useEffect Hook:** Use the `useEffect` hook to log a message to the console whenever the list of tasks changes.
-
-### Steps to Complete the Challenge
-
-1. **Clone the provided repository:**
-
+This project was generated with the following commands:
    ```bash
-   git clone https://github.com/joshforlenza/GBCS-CodingChallenge-Frontend.git
-   cd my-app
+   django-admin startproject django_rest_challenge .
+   cd django_rest_challenge
+   django-admin startapp challenge 
    ```
 
-2. **Install dependencies:**
+### Steps
+
+1. **Clone the provided repository**
 
    ```bash
-   npm install
+   git clone -b Django-REST-Challenge --single-branch https://github.com/SkyITManagement/coding-challenges.git
+   cd coding-challenges
    ```
 
-3. **Run the development server:**
+2. **Set up Virtual Enviorment**
+   ```bash
+   python -m venv venv
+   ```
+   On windows:
+   ```
+   venv\Scripts\activate
+   ```
+   On MacOS/Linux:
+   ```
+   source venv/bin/activate
+   ```
+
+3. **Install dependencies**
 
    ```bash
-   npm run dev
+   pip install djangorestframework
    ```
 
-4. **Navigate to the home page:**
-   Open your browser and go to `http://localhost:3000`
+4. **Implement the views and serializers for the Users and Groups models**
 
-5. **Implement the component:**
-   Open `src/app/todo-list/page.tsx` and complete the implementation of the to-do list component as described in the requirements.
+5. **Run the server**
+   ```bash
+   python manage.py runserver
+   ```
 
-### Features to Implement
+### Files to Modify
 
-- **Task Addition:** Users can add new tasks to the list.
-- **Task Completion:** Users can mark tasks as completed.
-- **State Management:** Use `useState` to manage the tasks and the new task input.
-- **Side Effects:** Use `useEffect` to log messages to the console whenever the tasks list changes.
+- `django_rest_challenge/challenge/serializers.py`
+- `django_rest_challenge/challenge/views.py`
 
-### File to Modify
+### Additional Info
 
-- `src/app/todo-list/page.tsx`
+- The routing in urls.py is already set up
+- The models used are the Django auth Users and Groups models
+- The server can be accessed through the browser at ```bash http://127.0.0.1:8000/```. You will have options to POST and GET from each model
 
 ## Submission Details
 
@@ -68,6 +75,6 @@ Please follow the instructions below to submit your completed coding challenge:
 
 ### Send Your Submission:
 
-- Email the .zip file of your project and the video to [hr@gbcsgroup.com](mailto:hr@gbcsgroup.com) with the subject line "GBCS Frontend Coding Challenge Submission - [Your Name]".
+- Email the .zip file of your project and the video to [hr@gbcsgroup.com](mailto:hr@gbcsgroup.com) with the subject line "GBCS Django REST Coding Challenge Submission - [Your Name]".
 
 Thank you for participating in our coding challenge. We look forward to reviewing your submission!
