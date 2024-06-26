@@ -43,6 +43,11 @@ This project was generated with the following commands:
    pip install djangorestframework
    ```
 
+4. **Sync the Database**
+   ```bash
+   python manage.py migrate
+   ```
+
 4. **Implement the views and serializers for the Users and Groups models**
 
 5. **Run the server**
@@ -59,7 +64,8 @@ This project was generated with the following commands:
 
 - The routing in urls.py is already set up
 - The models used are the Django auth Users and Groups models
-- The server can be accessed through the browser at ```bash http://127.0.0.1:8000/```. You will have options to POST and GET from each model
+- The server can be accessed through the browser at ```http://127.0.0.1:8000/```. You will have options to POST and GET from each model
+- Be sure to create an admin account with ```python manage.py createsuperuser```
 
 ## Submission Details
 
