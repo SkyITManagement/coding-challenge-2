@@ -1,9 +1,13 @@
 from django.contrib.auth.models import Group, User
 from rest_framework import serializers
 
-# TODO: Add serializers for the User and Group models
+# TODO: Implement serializers for the User and Group models
 
-# User Serializer - Fields: url, username, email, groups
+# UserSerializer - Fields: url, username, email, groups
+class UserSerializer(serializers.HyperlinkedModelSerializer):
+    pass
 
-# Groups Serializer - Fields: url, name
+# GroupsSerializer - Fields: url, name
+class GroupSerializer(serializers.HyperlinkedModelSerializer):
+    pass
 
