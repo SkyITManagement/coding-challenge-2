@@ -20,8 +20,8 @@ This project was generated with the following commands:
 1. **Clone the provided repository**
 
    ```bash
-   git clone -b Django-REST-Challenge --single-branch https://github.com/SkyITManagement/coding-challenges.git
-   cd coding-challenges
+   git clone https://github.com/SkyITManagement/coding-challenge-2.git
+   cd coding-challenge-2
    ```
 
 2. **Set up Virtual Enviorment**
@@ -71,9 +71,6 @@ This project was generated with the following commands:
 
 Please follow the instructions below to submit your completed coding challenge:
 
-### Zip the Project:
-
-- Once you have completed the coding challenge, zip the entire project directory.
 
 ### Record a Video:
 
@@ -81,6 +78,6 @@ Please follow the instructions below to submit your completed coding challenge:
 
 ### Send Your Submission:
 
-- Email the .zip file of your project and the video to [hr@gbcsgroup.com](mailto:hr@gbcsgroup.com) with the subject line "GBCS Django REST Coding Challenge Submission - [Your Name]".
+- Please use this google forms link to submit your video: https://forms.gle/vUxEJ3vzAsH3qTaUA
 
 Thank you for participating in our coding challenge. We look forward to reviewing your submission!
