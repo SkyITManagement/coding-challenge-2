@@ -22,6 +22,7 @@ This project was generated with the following commands:
    ```bash
    git clone https://github.com/SkyITManagement/coding-challenge-2.git
    cd coding-challenge-2
+   cd django_rest_challenge
    ```
 
 2. **Set up Virtual Enviorment**
